@@ -32,3 +32,4 @@ Route::get('/privacy-policy', [PrivacyPolicyController::class, 'index'])->name('
 Route::get('/terms-and-conditions', [TermsController::class, 'index'])->name('terms-and-conditions');
 Route::get('/our-work', [OurWorkController::class, 'index'])->name('our-work');
 Route::get('/thank-you', [ThankYouController::class, 'index'])->name('thank-you');
+Route::get('/our-work/{card}', [OurWorkController::class, 'show'])->name('pages.our-work-show');

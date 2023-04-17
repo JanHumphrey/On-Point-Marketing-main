@@ -87,23 +87,28 @@ class HomeController extends Controller
             'slider' => [
                 [
                     'image' => 'images/recent_work_1.png',
-                    'Label' => 'Slide 1'
+                    'Label' => 'Slide 1',
+                    'number' => '1'
                 ],
                 [
                     'image' => 'images/recent_work_2.png',
-                    'Label' => 'Slide 2'
+                    'Label' => 'Slide 2',
+                    'number' => '2'
                 ],
                 [
                     'image' => 'images/recent_work_3.png',
-                    'Label' => 'Slide 3'
+                    'Label' => 'Slide 3',
+                    'number' => '3'
                 ],
                 [
                     'image' => 'images/recent_work_4.png',
-                    'Label' => 'Slide 4'
+                    'Label' => 'Slide 4',
+                    'number' => '4'
                 ],
                 [
                     'image' => 'images/recent_work_5.png',
-                    'Label' => 'Slide 5'
+                    'Label' => 'Slide 5',
+                    'number' => '5'
                 ]
             ]
         ];
